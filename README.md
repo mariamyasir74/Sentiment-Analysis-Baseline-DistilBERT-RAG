@@ -37,6 +37,8 @@ streamlit run app/streamlit_app.py
 
  <img width="474" height="729" alt="Baseline_positive_ex" src="https://github.com/user-attachments/assets/66e2498c-ca41-42d2-9968-18695abc66e8" />
 
+---
+
 - DistilBERT accuracy:
 
 <img width="312" height="744" alt="Transformer_negative_ex" src="https://github.com/user-attachments/assets/973de4d3-4b73-4dcf-a206-0a636c545501" />
