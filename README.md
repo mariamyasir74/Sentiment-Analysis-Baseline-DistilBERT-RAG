@@ -25,31 +25,22 @@ python src/transformers_train.py
 ```bash
 streamlit run app/streamlit_app.py
 ```
-
-<img width="936" height="509" alt="Sentiment Analyzer - Demo" src="https://github.com/user-attachments/assets/9fd16c9b-2d2a-4d94-b54c-0c7e8d1a66f0" />
+<img width="766" height="777" alt="Sentiment Analyzer - Demo" src="https://github.com/user-attachments/assets/fe3eca55-7eb7-42a4-83dc-020aab7e48df" />
 
 ## Results
 
 - Baseline accuracy:
 
-<img width="729" height="797" alt="Baseline_negative_ex" src="https://github.com/user-attachments/assets/35716b9d-e68f-4443-aa22-569b8e6110d9" />
+<img width="464" height="733" alt="Baseline_negative_ex" src="https://github.com/user-attachments/assets/00960e4e-0cc6-4dc4-bcf7-1eafd3b371ca" />
 
 ---
 
-<img width="734" height="802" alt="Baseline_positive_ex" src="https://github.com/user-attachments/assets/0cc46077-70a8-4b4d-8374-c0073b537b1b" />
- 
+ <img width="474" height="729" alt="Baseline_positive_ex" src="https://github.com/user-attachments/assets/66e2498c-ca41-42d2-9968-18695abc66e8" />
+
 - DistilBERT accuracy:
 
-<img width="453" height="746" alt="Transformer_negative_ex1" src="https://github.com/user-attachments/assets/0bb4780b-2343-4262-967a-51efc39a4171" />
+<img width="312" height="744" alt="Transformer_negative_ex" src="https://github.com/user-attachments/assets/973de4d3-4b73-4dcf-a206-0a636c545501" />
 
 ---
 
-<img width="457" height="122" alt="Transformer_negative_ex2" src="https://github.com/user-attachments/assets/f1d14d21-520d-41cc-b49f-254193507a31" />
-
----
-
-<img width="456" height="748" alt="Transformer_positive_ex1" src="https://github.com/user-attachments/assets/b18770a8-5ccf-459e-857b-43c5606aa0e5" />
-
----
-
-<img width="459" height="127" alt="Transformer_positive_ex2" src="https://github.com/user-attachments/assets/0f2c718d-3d46-45d9-9ad8-9f68883844ff" />
+<img width="311" height="744" alt="Transformer_positive_ex" src="https://github.com/user-attachments/assets/07ca5f3c-bb74-4fe0-9332-8b6d4fd049c9" />
