@@ -1,0 +1,12 @@
+streamlit
+scikit-learn
+joblib
+datasets
+transformers
+torch
+evaluate
+pandas
+numpy
+lime
+shap
+pillow

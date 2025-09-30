@@ -1,6 +1,7 @@
 import streamlit as st
 import sys
 import os
+from PIL import Image
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src.inference import BaselinePredictor, TransformerPredictor
 import numpy as np
@@ -9,7 +10,9 @@ import shap
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Sentiment Analyzer", layout='centered')
-st.title('Sentiment Analyzer - Demo')
+st.title('Sentiment Analyzer')
+image = Image.open(r"D:\Sentiment Analysis project\cf8e9670-4661-4e8e-b58f-101a615dfca7.png")
+st.image(image, use_container_width=True)
 option = st.radio('Model', ['Baseline (TF-IDF)', 'Transformer (DistilBERT)'])
 text = st.text_area('Enter text to analyze', height=150)
 if st.button('Predict') and text.strip():
@@ -31,7 +34,6 @@ if st.button('Predict') and text.strip():
         fig, ax = plt.subplots()
         ax.plot([1, 2, 3], [1, 4, 9])
         st.pyplot(fig, bbox_inches="tight")
-    st.metric('Positive probability', f"{pos_prob:.2%}")
     st.write('### Prediction')
     label = 'Positive' if pos_prob >= 0.5 else 'Negative'
     st.write(label)
