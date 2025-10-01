@@ -1,5 +1,5 @@
 # Sentiment Analyzer
-An end-to-end sentiment analysis project with a fast baseline (TF-IDF + LR) and a fine-tuned transformer (DistilBERT). Includes a Streamlit demo and Dockerfile for easy sharing.
+An end-to-end sentiment analysis project with RAG system trained with a fast baseline (TF-IDF + LR) and a fine-tuned transformer (DistilBERT). Includes a Streamlit demo and Dockerfile for easy sharing.
 
 ## Quickstart
 1. Clone repo
@@ -46,3 +46,25 @@ streamlit run app/streamlit_app.py
 ---
 
 <img width="311" height="744" alt="Transformer_positive_ex" src="https://github.com/user-attachments/assets/07ca5f3c-bb74-4fe0-9332-8b6d4fd049c9" />
+
+---
+
+## Sentiment Analyzer with RAG system
+1. Upload .ipynp file on Google Colap and run the cells
+
+<img width="1631" height="244" alt="Screenshot 2025-10-01 091007" src="https://github.com/user-attachments/assets/9f69f603-6af2-4f46-be14-680348eed1c2" />
+
+---
+
+<img width="377" height="206" alt="Screenshot 2025-10-01 091029" src="https://github.com/user-attachments/assets/756c95ca-a5a3-4bfe-bd5b-6c74f858ed08" />
+
+3. Download the sentiment_model folder, .index and .pkl file
+4. Run demo:
+```bash
+streamlit run app/RAG_streamlit_app.py
+```
+<img width="742" height="804" alt="Sentiment Analyser + RAG" src="https://github.com/user-attachments/assets/b9d08f2f-f138-4cd6-ad56-e67c0723c457" />
+
+---
+
+<img width="469" height="763" alt="transformer_RAG_ex" src="https://github.com/user-attachments/assets/cdddf633-3b24-44c4-a653-8858c6fc6587" />
