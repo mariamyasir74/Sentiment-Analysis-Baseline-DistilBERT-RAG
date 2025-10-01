@@ -3,6 +3,8 @@ scikit-learn
 joblib
 datasets
 transformers
+sentence-transformers
+faiss-cpu
 torch
 evaluate
 pandas
