@@ -10,7 +10,7 @@ class BaselinePredictor:
         return self.pipe.predict_proba(texts)
 
 class TransformerPredictor:
-    def __init__(self, model_dir=r'D:\Sentiment Analysis project\src\models\distilbert-imdb'):
+    def __init__(self, model_dir=r'D:\Sentiment Analysis project\src\models\distilbert-sst'):
         self.tokenizer = AutoTokenizer.from_pretrained(model_dir)
         self.model = AutoModelForSequenceClassification.from_pretrained(model_dir)
         self.model.eval()
